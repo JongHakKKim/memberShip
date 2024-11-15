@@ -93,7 +93,6 @@ public class MemberShipService implements UserDetailsService {
 
         }
 
-
         return User.builder()
                 .username(memberShip.getEmail())
                 .password(memberShip.getPassword())     // <input name="password">
